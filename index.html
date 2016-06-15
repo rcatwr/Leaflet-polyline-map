@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	
+	<!-- Load Leaflet from CDN -->
+    <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+	<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+
+	<link rel="stylesheet" href="mapstyle.css"/>
+<!-- load the default extent plugin -->
+   <script src="plugin/leaflet.defaultextent.js"></script>
+   <!-- load the default extent plugin css-->
+    <link rel="stylesheet" href="plugin/leaflet.defaultextent.css" />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css' rel='stylesheet' />
+     <script src="plugin/leaflet.label.js"></script>
+	
+	<link rel="stylesheet" href="plugin/leaflet.label.css"/>     
+          
+        
+	
+</head>
+<body>
+
+<h1>Nova Scotia Highway Map</h1>
+
+<div id="mapid"></div>
+<script src="highways.geojson"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
