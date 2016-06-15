@@ -1,6 +1,6 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoicmljaG1pbmFyZGkiLCJhIjoiY2lsbDk5eG42NW1iZnR2a3BpdWQzMjUzYiJ9.A1gG0JuwOKyAQUJSuE3qDw';
 
-var map = L.map('mapid').setView([ 45.33, -62.43], 8);
+var map = L.map('mapid').setView([ 45.33, -62.43], 7);
 
 L.tileLayer(
     'https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/{z}/{x}/{y}?access_token=' + L.mapbox.accessToken, {
